@@ -1,0 +1,13 @@
+[package]
+name = "glutin_glx_sys"
+version = "0.2.0"
+authors = ["The glutin contributors", "Freya Gentz <zegentzy@protonmail.com>"]
+description = "The glx bindings for glutin"
+repository = "https://github.com/rust-windowing/glutin_sys"
+license = "Apache-2.0"
+readme = "README.md"
+build = "build.rs"
+edition = "2018"
+
+[build-dependencies]
+gl_generator = "0.13"

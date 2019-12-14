@@ -1,0 +1,12 @@
+[package]
+name = "glutin_osmesa_sys"
+version = "0.1.0"
+authors = ["Daggerbot <daggerbot@gmail.com>", "Freya Gentz <zegentzy@protonmail.com>"]
+description = "OSMesa library bindings for Rust"
+repository = "https://github.com/rust-windowing/glutin_sys"
+license = "CC0-1.0"
+readme = "README.md"
+edition = "2018"
+
+[dependencies]
+shared_library = "0.1"

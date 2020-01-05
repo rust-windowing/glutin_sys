@@ -38,6 +38,8 @@ fn main() {
                 "EGL_EXT_platform_wayland",
                 "EGL_EXT_platform_device",
                 "EGL_KHR_swap_buffers_with_damage",
+                "EGL_KHR_context_flush_control",
+                "EGL_KHR_gl_colorspace",
             ],
         );
 

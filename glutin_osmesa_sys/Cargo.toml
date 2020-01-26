@@ -9,4 +9,4 @@ readme = "README.md"
 edition = "2018"
 
 [dependencies]
-shared_library = "0.1"
+shared_library = "0.1.9"

@@ -33,6 +33,7 @@ fn main() {
                 "EGL_KHR_platform_wayland",
                 "EGL_KHR_platform_gbm",
                 "EGL_EXT_platform_base",
+                "EGL_MESA_platform_surfaceless",
                 "EGL_EXT_platform_x11",
                 "EGL_MESA_platform_gbm",
                 "EGL_EXT_platform_wayland",

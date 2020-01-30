@@ -41,6 +41,8 @@ fn main() {
                 "EGL_KHR_swap_buffers_with_damage",
                 "EGL_KHR_context_flush_control",
                 "EGL_KHR_gl_colorspace",
+                "EGL_EXT_device_enumeration",
+                "EGL_EXT_device_query",
             ],
         );
 

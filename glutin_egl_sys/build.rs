@@ -43,6 +43,7 @@ fn main() {
                 "EGL_KHR_gl_colorspace",
                 "EGL_EXT_device_enumeration",
                 "EGL_EXT_device_query",
+                "EGL_EXT_pixel_format_float",
             ],
         );
 

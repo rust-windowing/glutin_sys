@@ -12,10 +12,10 @@ pub use shared_library::LoadingError;
 use std::os::raw::{c_char, c_int, c_uchar, c_uint, c_void};
 
 #[cfg(target_os = "macos")]
-const LIB_NAME: &'static str = "libOSMesa.dylib";
+const LIB_NAME: &str = "libOSMesa.dylib";
 
 #[cfg(not(target_os = "macos"))]
-const LIB_NAME: &'static str = "libOSMesa.so";
+const LIB_NAME: &str = "libOSMesa.so";
 
 // functions
 shared_library!(OsMesa, LIB_NAME,
